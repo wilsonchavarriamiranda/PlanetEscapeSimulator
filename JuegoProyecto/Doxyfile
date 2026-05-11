@@ -1,0 +1,40 @@
+# Doxyfile 1.9.5
+
+PROJECT_NAME           = "ProyectoGrafos"
+OUTPUT_DIRECTORY       = doc
+CREATE_SUBDIRS         = NO
+
+INPUT                  = src include README.md
+RECURSIVE              = YES
+
+EXCLUDE                = 
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+USE_MDFILE_AS_MAINPAGE = README.md
+
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+GENERATE_XML           = NO
+
+EXTRACT_ALL            = YES
+
+HAVE_DOT               = NO
+
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+GENERATE_TREEVIEW      = YES
+
+OPTIMIZE_OUTPUT_FOR_C  = NO
+
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_NO_PARAMDOC       = YES

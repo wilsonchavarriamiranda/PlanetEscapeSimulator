@@ -1,0 +1,18 @@
+# Ignore VSCode settings
+.vscode/
+build/
+bin/
+
+# Object files
+*.o
+*.obj
+
+# Documentation files
+doc/
+
+# Compiled static and dynamic libraries
+*.a
+*.so
+*.dll
+
+window.cfg
